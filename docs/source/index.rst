@@ -1,55 +1,52 @@
-
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
-
 
 Logistic Regression
 ===================
 .. autoclass:: snapml.LogisticRegression
-   :inherited-members:
+   :inherited-members: BaseEstimator
    :members:
-
 
 Linear Regression
 =================
 .. autoclass:: snapml.LinearRegression
-   :inherited-members:
+   :inherited-members: BaseEstimator
    :members:
 
 Support Vector Machine
 ======================
 .. autoclass:: snapml.SupportVectorMachine
-   :inherited-members:
+   :inherited-members: BaseEstimator
    :members:
 
 Decision Trees
 ==============
 .. autoclass:: snapml.DecisionTreeClassifier
-   :inherited-members:
+   :inherited-members: BaseEstimator
    :members:
 
 .. autoclass:: snapml.DecisionTreeRegressor
-   :inherited-members:
+   :inherited-members: BaseEstimator
    :members:
 
 Random Forests
 ==============
 .. autoclass:: snapml.RandomForestClassifier
-   :inherited-members:
+   :inherited-members: BaseEstimator
    :members:
 
 .. autoclass:: snapml.RandomForestRegressor
-   :inherited-members:
+   :inherited-members: BaseEstimator
    :members:
 
 Boosting Machines
 =================
 
 .. autoclass:: snapml.BoostingMachineClassifier
-   :inherited-members:
+   :inherited-members: BaseEstimator
    :members:
 
 .. autoclass:: snapml.BoostingMachineRegressor
-   :inherited-members:
+   :inherited-members: BaseEstimator
    :members:
