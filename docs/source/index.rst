@@ -6,8 +6,8 @@ Snap ML is a library for Machine Learning. The following models currently are su
 .. hlist::
    :columns: 1
 
-   * :doc:`logistic_regression` (regression)
-   * :doc:`linear_regression` (classification)
+   * :doc:`logistic_regression` (classification)
+   * :doc:`linear_regression` (regression)
    * :doc:`support_vector_machine` (classification)
    * :doc:`decision_trees` (regression, classification)
    * :doc:`random_forests` (regression, classification)
