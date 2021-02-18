@@ -1,9 +1,29 @@
-Snap ML documentation
-=====================
+Overview
+########
 
-Snap ML currently supports the following machine learning models:
+Snap ML is a library for Machine Learning. The following models currently are supported:
+
+.. hlist::
+   :columns: 1
+
+   * :doc:`logistic_regression` (regression)
+   * :doc:`linear_regression` (classification)
+   * :doc:`support_vector_machine` (classification)
+   * :doc:`decision_trees` (regression, classification)
+   * :doc:`random_forests` (regression, classification)
+   * :doc:`boosting_machines` (regression, classification)
+
 
 .. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   self
+
+.. toctree::
+   :caption: Models
+   :maxdepth: 1
+   :hidden:
 
    logistic_regression
    linear_regression
