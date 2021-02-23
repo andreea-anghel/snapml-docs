@@ -9,7 +9,7 @@ Decision Tree Classifier
    :members:
 
 Decision Tree Regressor
----------------------
+-----------------------
 
 .. autoclass:: snapml.DecisionTreeRegressor
    :inherited-members: BaseEstimator
