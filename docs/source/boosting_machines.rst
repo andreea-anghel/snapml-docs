@@ -5,12 +5,12 @@ Boosting Machine Classifier
 ---------------------------
 
 .. autoclass:: snapml.BoostingMachineClassifier
-   :inherited-members: BaseEstimator
+   :inherited-members:
    :members:
 
 Boosting Machine Regressor
 --------------------------
 
 .. autoclass:: snapml.BoostingMachineRegressor
-   :inherited-members: BaseEstimator
+   :inherited-members:
    :members:

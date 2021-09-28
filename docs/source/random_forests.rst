@@ -5,12 +5,12 @@ Random Forest Classifier
 ------------------------
 
 .. autoclass:: snapml.RandomForestClassifier
-   :inherited-members: BaseEstimator
+   :inherited-members:
    :members:
 
 Random Forest Regressor
 -----------------------
       
 .. autoclass:: snapml.RandomForestRegressor
-   :inherited-members: BaseEstimator
+   :inherited-members:
    :members:
