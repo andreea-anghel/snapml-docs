@@ -21,6 +21,7 @@ Snap ML is a library for Machine Learning. The following models currently are su
    self
    installation
    examples
+   release_notes
 
 .. toctree::
    :caption: Models
