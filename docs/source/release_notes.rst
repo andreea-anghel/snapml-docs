@@ -1,30 +1,30 @@
 Release Notes
 ##################
 
-The latest stable version of Snap ML is available at `https://pypi.org/project/snapml/`.
+The latest stable version of Snap ML is available at https://pypi.org/project/snapml/.
 
 Snap ML v1.7.7 (July 21, 2021)
-======
+==============================
 
 * Added support for A100 GPUs
 * Fixed unit-tests that were failing on POWER systems when using multiple GPUs
 
 
 Snap ML v1.7.6 (June 18, 2021)
-======
+==============================
 
 * Relaxed numpy dependency to be >= 1.18.5
 
 
 Snap ML v1.7.5 (June 17, 2021)
-======
+==============================
 
 * Relaxed numpy dependency to be >= 1.19.0
 * Added support for reading ONNX files generated on Z systems
 
 
 Snap ML v1.7.4 (June 11, 2021)
-======
+==============================
 
 * New and improved inference engine for tree-based ensembles
 * Removed predict_proba from DecisionTreeRegressor and RandomForestRegressor
@@ -32,13 +32,13 @@ Snap ML v1.7.4 (June 11, 2021)
 
 
 Snap ML v1.7.3 (May 26, 2021)
-======
+==============================
 
 * Pinned numpy dependency to 1.19.2
 
 
 Snap ML v1.7.2 (May 26, 2021)
-======
+==============================
 
 * Simplified the pre-trained model import API for Boosting Machines
 * Fixed support for string labels at training/inference time
@@ -50,7 +50,7 @@ Snap ML v1.7.2 (May 26, 2021)
 
 
 Snap ML v1.7.1 (May 17, 2021)
-======
+==============================
 
 * Added multi-class classification support (Decision Trees and Random Forests)
 * Fixed issue related to class weights and Logistic Regression
@@ -58,12 +58,12 @@ Snap ML v1.7.1 (May 17, 2021)
 
 
 Snap ML v1.7.0 (February 22, 2021)
-======
+==================================
 
 * Added Windows, MacOS, Linux/x86, Linux/PPC support
 * Accelerated inference engine for tree ensembles
 * Added support for importing pre-trained tree ensembles from PMML, XGBoost, LightGBM and ONNX
-* Added a new ML algorithm: heterogeneous boosting machine model (for more details: `https://proceedings.neurips.cc/paper/2020/file/7fd3b80fb1884e2927df46a7139bb8bf-Paper.pdf`)
+* Added a new ML algorithm: heterogeneous boosting machine model (for more details: https://proceedings.neurips.cc/paper/2020/file/7fd3b80fb1884e2927df46a7139bb8bf-Paper.pdf)
 * Integrated Snap ML into Lale
 * Added non-linear kernel support for linear models
 * Added predict_proba to LogisticRegression in the multi-class case
