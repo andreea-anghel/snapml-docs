@@ -7,7 +7,7 @@ Snap ML v1.8.1 (Decemebr 2, 2021)
 =================================
 
 New Features:
-- Support for older machines that do not have AVX2.
+- Support for older machines that do not have AVX2 instructions.
 - New MultiOutputCalibratedClassifier estimator.
 - SVM: support for squared hinge loss and shrinkage.
 - Support np.memmap as input for GLMs.
@@ -22,6 +22,13 @@ Bug-fixes:
 - Correct class label predictions when importing RF/XGB models.
 - Fix issue when deepcopying estimators that were not yet fitted.
 - Fix documentation in BoostingMachineClassifier.
+
+Snap ML v1.7.8 (November 19, 2021)
+==================================
+
+Bug-fixes:
+
+* Support older machines that do not have AVX2 instructions.
 
 Snap ML v1.8.0 (November 11, 2021)
 ==================================
