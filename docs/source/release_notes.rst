@@ -3,34 +3,38 @@ Release Notes
 
 The latest stable version of Snap ML is available at https://pypi.org/project/snapml/.
 
-Snap ML v1.8.1 (Decemebr 2, 2021)
+Snap ML v1.8.1 (Dec. 2, 2021)
 =================================
 
 New Features:
+
 - Support for older machines that do not have AVX2 instructions.
 - New MultiOutputCalibratedClassifier estimator.
 - SVM: support for squared hinge loss and shrinkage.
 - Support np.memmap as input for GLMs.
 
 API Changes:
+
 - Added fit function to BatchedTreeEnsemble classes.
 
 Dependency Changes:
+
 - Compile against numpy==1.19.3, to support numpy>=1.18.5 at runtime.
 
 Bug-fixes:
+
 - Correct class label predictions when importing RF/XGB models.
 - Fix issue when deepcopying estimators that were not yet fitted.
 - Fix documentation in BoostingMachineClassifier.
 
-Snap ML v1.7.8 (November 19, 2021)
+Snap ML v1.7.8 (Nov. 19, 2021)
 ==================================
 
 Bug-fixes:
 
 * Support older machines that do not have AVX2 instructions.
 
-Snap ML v1.8.0 (November 11, 2021)
+Snap ML v1.8.0 (Nov. 11, 2021)
 ==================================
 
 New Features:
@@ -59,27 +63,27 @@ Bug-fixes:
 * Fixed memory issue for boosting machines with subsample<1.
 
 
-Snap ML v1.7.7 (July 21, 2021)
+Snap ML v1.7.7 (Jul. 21, 2021)
 ==============================
 
 * Added support for A100 GPUs
 * Fixed unit-tests that were failing on POWER systems when using multiple GPUs
 
 
-Snap ML v1.7.6 (June 18, 2021)
+Snap ML v1.7.6 (Jun. 18, 2021)
 ==============================
 
 * Relaxed numpy dependency to be >= 1.18.5
 
 
-Snap ML v1.7.5 (June 17, 2021)
+Snap ML v1.7.5 (Jun. 17, 2021)
 ==============================
 
 * Relaxed numpy dependency to be >= 1.19.0
 * Added support for reading ONNX files generated on Z systems
 
 
-Snap ML v1.7.4 (June 11, 2021)
+Snap ML v1.7.4 (Jun. 11, 2021)
 ==============================
 
 * New and improved inference engine for tree-based ensembles
@@ -113,7 +117,7 @@ Snap ML v1.7.1 (May 17, 2021)
 * Fixed issue with pickled boosting machine models
 
 
-Snap ML v1.7.0 (February 22, 2021)
+Snap ML v1.7.0 (Feb. 22, 2021)
 ==================================
 
 * Added Windows, MacOS, Linux/x86, Linux/PPC support
