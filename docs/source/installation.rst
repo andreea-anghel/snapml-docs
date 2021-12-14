@@ -8,7 +8,7 @@ Snap ML can be installed using pip.
     pip install snapml
 
 * Your pip version should be at least 19.3.
-* We currently support Python 3.6, 3.7 and 3.8.
+* We currently support Python 3.7, 3.8 and 3.9.
 * The OpenMP runtime must also be installed on your system.
 
 Complete instructions for all supported platforms are provided below.
