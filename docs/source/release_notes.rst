@@ -3,6 +3,13 @@ Release Notes
 
 The latest stable version of Snap ML is available at https://pypi.org/project/snapml/.
 
+Snap ML v1.9.0 (Apr. 1, 2022)
+=================================
+
+New features:
+
+- New matrix-based algorithms for tree-ensemble inference using zDNN library (available for Z16 systems only).
+
 Snap ML v1.8.4 (Feb. 24, 2022)
 =================================
 
