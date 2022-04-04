@@ -16,7 +16,7 @@ Complete instructions for all supported platforms are provided below.
 Ubuntu
 ======
 
-On Ubuntu we support both Intel (x86_64) and IBM Power (ppc64le) architectures.
+On Ubuntu we support Intel (x86_64), IBM Power (ppc64le) and IBM Z (s390x) architectures.
 
 To install Snap ML:
 
@@ -30,7 +30,7 @@ In order to use GPU acceleration one should have CUDA 10.2 (or higher) installed
 RHEL/CentOS
 =============
 
-On RHEL/CentOS we support both Intel (x86_64) and IBM Power (ppc64le) architectures.
+On RHEL/CentOS we support Intel (x86_64), IBM Power (ppc64le) and IBM Z (s390x) architectures.
 
 To install Snap ML:
 
