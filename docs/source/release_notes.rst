@@ -4,7 +4,7 @@ Release Notes
 The latest stable version of Snap ML is available at https://pypi.org/project/snapml/.
 
 
-Snap ML v1.8.2 (Dec. 2, 2021)
+Snap ML v1.8.2 (Dec. 7, 2021)
 =================================
 
 Bug fixes:
