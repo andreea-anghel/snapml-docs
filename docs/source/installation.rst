@@ -16,7 +16,7 @@ Complete instructions for all supported platforms are provided below.
 Ubuntu
 ======
 
-On Ubuntu we support Intel (x86_64), IBM Power (ppc64le) and IBM Z (s390x) architectures.
+On Ubuntu we support Intel™ (x86_64), IBM Power™ (ppc64le) and IBM Z™ (s390x) architectures.
 
 To install Snap ML:
 
@@ -30,7 +30,7 @@ In order to use GPU acceleration one should have CUDA 10.2 (or higher) installed
 RHEL/CentOS
 =============
 
-On RHEL/CentOS we support Intel (x86_64), IBM Power (ppc64le) and IBM Z (s390x) architectures.
+On RHEL/CentOS we support Intel™ (x86_64), IBM Power™ (ppc64le) and IBM Z™ (s390x) architectures.
 
 To install Snap ML:
 
@@ -44,7 +44,7 @@ In order to use GPU acceleration one should have CUDA 10.2 (or higher) installed
 MacOS
 =====
 
-On MacOS we support the Intel (x86_64) architecture.
+On MacOS we support the Intel™ (x86_64) architecture.
 
 To install Snap ML:
 
@@ -58,7 +58,7 @@ GPU acceleration is not currently supported on MacOS.
 Windows
 =======
 
-On Windows we support the Intel (amd64) architecture.
+On Windows we support the Intel™ (amd64) architecture.
 
 To install Snap ML, one should firstly download and install the `Microsoft Visual C++ Redistributable for Visual Studio 2019 <https://aka.ms/vs/16/release/VC_redist.x64.exe>`_.
 Next, install the Snap ML package via pip:
