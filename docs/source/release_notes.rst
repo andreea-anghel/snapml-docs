@@ -3,6 +3,25 @@ Release Notes
 
 The latest stable version of Snap ML is available at https://pypi.org/project/snapml/.
 
+Snap ML v1.8.4 (Feb. 24, 2022)
+=================================
+
+Bug-fixes:
+
+- Fix bug with string labels in BoostingMachine.
+- Fix bug with overflow in RBFSampler.
+- Fix bug related to compressed ensembles of variable depth.
+- Fix bug related to number of features-based optimization in compressed ensemble.
+
+New features:
+
+- ExtraTrees support in inference engine.
+- New features for knowledge distillation.
+
+Perf. improvements:
+
+- Training performance improvement for all tree-based models.
+
 Snap ML v1.8.3 (Dec. 10, 2021)
 =================================
 
