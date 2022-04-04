@@ -20,7 +20,7 @@ New features:
 
 Perf. improvements:
 
-- Performance improvement for decision trees.
+- Training performance improvement for all tree-based models.
 
 Snap ML v1.8.3 (Dec. 10, 2021)
 =================================
