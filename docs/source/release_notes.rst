@@ -3,6 +3,21 @@ Release Notes
 
 The latest stable version of Snap ML is available at https://pypi.org/project/snapml/.
 
+Snap ML v1.9.1 (May 31, 2022)
+=================================
+
+New features:
+    - New export_model method for RandomForest[Classifier/Regressor] and BoostingMachine[Classifier/Regressor].
+
+Bug fixes:
+    - Support importing ensembles from PMML that were trained using sample weights.
+    - Fix reference counting for PyNone.
+    - Improved memory management for inference engine on z16 AI accelerator.
+
+API changes:
+    - Expose import_model method in BoostingMachine[Classifier/Regressor].
+    - Expose optimize_trees method in RandomForest[Classifier/Regressor] and BoostingMachine[Classifier/Regressor].
+
 Snap ML v1.9.0 (Apr. 1, 2022)
 =================================
 
