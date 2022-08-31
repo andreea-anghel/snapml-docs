@@ -17,8 +17,8 @@ Bug fixes:
     - GeneralizedLinearModels: fix issue with RBFSampler transform function on s390x.
 
 API changes:
-    - Added generic `import_model` function that can detect the ensemble and type task from the PMML file.
-    - Added option `remap_feature_indices` to score imported models using only the features that are listed in the model file.
+    - Added generic :func:`import_model` function that can detect the ensemble and type task from the PMML file.
+    - Added option :attr:`remap_feature_indices` to score imported models using only the features that are listed in the model file.
 
 Snap ML v1.9.1 (May 31, 2022)
 =================================
