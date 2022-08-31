@@ -3,6 +3,23 @@ Release Notes
 
 The latest stable version of Snap ML is available at https://pypi.org/project/snapml/.
 
+Snap ML v1.9.2 (Aug. 31, 2022)
+=================================
+
+Bug fixes:
+    - Fix issue with binary incompatibility between Linux/MacOS and Windows.
+    - BoostingMachine: Fix overflow issue for heterogeneous ensembles on very large data.
+    - MultiOutputCalibratedClassifier: support for RBF kernels.
+    - BatchedTreeEnsemble: better handling of default SnapRandomForest.
+    - BatchedTreeEnsemble: add base_score calculation.
+    - BatchedTreeEnsemble: support calling partial_fit after fit.
+    - ModelImport: improved error handling.
+    - GeneralizedLinearModels: fix issue with RBFSampler transform function on s390x.
+
+API changes:
+    - Added generic `import_model` function that can detect the ensemble and type task from the PMML file.
+    - Added option `remap_feature_indices` to score imported models using only the features that are listed in the model file.
+
 Snap ML v1.9.1 (May 31, 2022)
 =================================
 
