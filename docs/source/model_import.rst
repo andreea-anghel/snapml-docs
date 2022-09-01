@@ -37,4 +37,7 @@ Details regarding which Snap ML classes can import which types of pre-trained mo
 | :class:`snapml.RandomForestRegressor`            | PMML              | :class:`snapml.RandomForestRegressor`     |
 +--------------------------------------------------+-------------------+-------------------------------------------+
 
+Note that the standard way to save and load models trained with Snap ML is using pickle/joblib. However, since the resulting binary models depend on the endianness of the platform, it is currently not possible to save a model on an Intel™ (x86_64) platform and then load it on an IBM Z™ (s390x)  platform (and vice-versa). To overcome this issue, we also provide support for exporting and importing tree ensembles trained with Snap ML via the platform-independent PMML format. For details regarding how to export Snap ML tree ensembles as PMML see the documentation for the corresponding member functions (e.g., :func:`snapml.RandomForestClassifier.export_model`).
+
+
 .. autofunction:: snapml.import_model
