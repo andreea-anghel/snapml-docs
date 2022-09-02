@@ -2,6 +2,14 @@ Model Import
 ============
 
 Snap ML supports importing tree ensembles models that were trained with other frameworks (e.g., scikit-learn, XGBoost, LightGBM) so one can leverage Snap ML's accelerated inference engine.
+
+
+.. image:: model-import.png
+  :width: 600
+  :align: center
+  :alt: Model Import Flow
+
+
 One can import a model either by:
 
 * instantiating the corresponding Snap ML class (e.g., :class:`snapml.RandomForestClassifier`) and then call the :func:`import_model` member function (e.g., :func:`snapml.RandomForestClassifier.import_model`)
